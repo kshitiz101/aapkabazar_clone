@@ -1,16 +1,34 @@
 <header>
-  <nav class="fixed-top navbar navbar-expand-lg navbar-light">
-    <a class="navbrand-brand" ng-reflect-router-link="/" href="/">
-      <img src="https://aapkabazar.co/assets/image/logo.png" class="logo" alt="">
+  <nav class="fixed-top navbar navbar-expand-lg">
+    <img src="https://aapkabazar.co/assets/image/logo.png" class="logo" alt="">
+    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#n_bar"
+      aria-controls="navbarNavAltMarkup" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="n_bar">
       <button type="button" class="btn btn-primary menu">
         <img src="https://aapkabazar.co/assets/image/category.png" alt="" class="category-image">
         All category
-        <i class="fa-solid fa-angle-down"></i>
+        <i class="fa fa-solid fa-angle-down arrow-down"></i>
       </button>
-      <div class="input-group mb-3 search-box">
-        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+      <div class="input-group search-box">
+        <input type="text" class="form-control" placeholder="Search for Products" aria-label="Recipient's username"
+          aria-describedby="button-addon2">
+        <button class="btn btn-primary search-btn" type="button" id="button-addon2">
+          <i class="fa fa-solid fa-magnifying-glass"></i></button>
       </div>
-    </a>
+      <button type="button" class="btn btn-outline-warning pincode-btn">
+        <i class="fa fa-solid fa-location-dot"></i>
+        <p class="location-text">11075, New Delhi</p>
+      </button>
+      <div class="cart">
+        <i class="fa fa-solid fa-cart-shopping"></i>
+        <p class="navbar-text">Cart</p>
+      </div>
+      <div class="login">
+        <i class="fa fa-regular fa-user"></i>
+        <p class="navbar-text">Login</p>
+      </div>
+    </div>
   </nav>
 </header>

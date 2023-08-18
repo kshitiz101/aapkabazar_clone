@@ -1,4 +1,4 @@
-img {
+/* img {
     vertical-align: middle;
     border-style: none;
 }
@@ -11,4 +11,16 @@ ul[_ngcontent-serverApp-c186] {
 
 nav{
     width: 100%;
+} */
+
+.btn-primary{
+    background-color: #0a3b65;
+}
+
+.fa{
+    color: #0a3b65;
+}
+
+.fa-magnifying-glass,.fa-angle-down{
+    color: white;
 }

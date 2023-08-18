@@ -1,20 +1,66 @@
 .logo{
-    width: 56%;
+    width: 15%;
+    margin-right: 50px;
 }
 
 .menu {
     display: inline-block;
-    border-radius: 0.2rem;
     position: relative;
+    padding-right: 0;
+    border-radius: 0.2rem;
+    width: 175px;
+    text-align: left;
 }
 
 .category-image{
-    width: 30px !important;
-    height: 25px !important;
-    margin-right: -5px;
+    width: 30px;
+    padding-right: 10px;
+}
+
+.arrow-down{
+    margin-left: 15px;
 }
 
 .search-box{
-    display: block;
-    /* position: relative; */
+    margin-left: 50px;
+    width: 400px;
+    display: inline-flex;
+}
+
+.search-btn{
+    width: 50px;
+}
+
+.pincode-btn{
+    width: fit-content;
+    margin-left: 20px;
+}
+
+.fa-location-dot{
+    display: inline-block;
+}
+
+.location-text{
+    font-size: smaller;
+    font-weight: 500;
+    color: #0a3b65;
+    text-align: left;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+.navbar-text
+{
+    text-align: left;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.cart,.login{
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
